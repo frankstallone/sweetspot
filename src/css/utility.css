@@ -335,16 +335,20 @@ Utilities for controlling how grid items are aligned along their inline axis. */
   font-weight: var(--font-weight-base);
 }
 
-.font-weight-medium {
-  font-weight: var(--font-medium-weight);
-}
-
 .font-weight-emphasis {
   font-weight: var(--font-emphasis-weight);
 }
 
+.font-base {
+  font-family: var(--font-base);
+}
+
 .font-display {
   font-family: var(--font-display);
+}
+
+.font-hero {
+  font-family: var(--font-hero);
 }
 
 .font-date {
