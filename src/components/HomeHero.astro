@@ -1,10 +1,8 @@
 ---
 import Header from './Header.astro';
-import frankstallone from '../assets/2023-Frank-Stallone-Web-Marketing-Expert.png';
-import { Picture } from 'astro:assets';
 ---
 
-<div class="cover spot-color-gray-dark" id="hero" style="--cover-padding: 0;">
+<div class="cover" id="hero" style="--cover-padding: 0;">
   <Header />
   <div class="switcher" style="--spot-color: transparent;">
     <div class="box flex flex-col justify-center flow prose">
@@ -13,17 +11,6 @@ import { Picture } from 'astro:assets';
         Learn everything we know about marketing. Grow more successful dessert
         franchise units. Connect with like-minded professionals.
       </h2>
-    </div>
-    <div class="text-center relative overflow-hidden">
-      <Picture
-        src={frankstallone}
-        widths={[500, 700, 1200]}
-        width={4210}
-        height={5456}
-        class="object-contain h-auto"
-        alt="The Internet's favorite Frank Stallone"
-        format="avif"
-      />
     </div>
   </div>
 </div>
