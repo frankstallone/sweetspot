@@ -1,6 +1,6 @@
 ---
-import { Picture } from "astro:assets";
-import frankstallone from "../assets/frank-stallone-logo-2023-04-white@2x.png";
+import { Picture } from 'astro:assets';
+import sweetspot from '../assets/sweetspot-logo-horizontal.png';
 ---
 
 <header
@@ -9,12 +9,11 @@ import frankstallone from "../assets/frank-stallone-logo-2023-04-white@2x.png";
 >
   <a href="/">
     <Picture
-      src={frankstallone}
-      widths={[501]}
-      width={140}
-      height={13.406}
+      src={sweetspot}
+      width={253.25}
+      height={60}
       class="object-contain"
-      alt="The Internet's favorite Frank Stallone"
+      alt="SweetSpot Solutions logo"
       format="avif"
     />
   </a>
@@ -24,8 +23,7 @@ import frankstallone from "../assets/frank-stallone-logo-2023-04-white@2x.png";
       class="cluster justify-center font-weight-emphasis font-display"
       style="--gap: var(--space-l);"
     >
-      <li class="header-link"><a href="#contact">Reach out</a></li>
-      <li class="header-link"><a href="#book-call">Book a call</a></li>
+      <li class="header-link"><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
