@@ -10,6 +10,7 @@
 .header-link a:hover,
 .header-link a:focus,
 .header-link a:active {
+  color: var(--color-key);
   text-decoration: underline;
   text-decoration-thickness: max(0.15em, 1px);
 }
@@ -29,12 +30,52 @@
 
 /* Text */
 
+.text-blue100 {
+  color: var(--blue100);
+}
+
+.text-blue200 {
+  color: var(--blue200);
+}
+
+.text-blue300 {
+  color: var(--blue300);
+}
+
+.text-blue400 {
+  color: var(--blue400);
+}
+
+.text-blue500 {
+  color: var(--blue500);
+}
+
+.text-blue600 {
+  color: var(--blue600);
+}
+
+.text-blue700 {
+  color: var(--blue700);
+}
+
+.text-blue800 {
+  color: var(--blue800);
+}
+
+.text-blue900 {
+  color: var(--blue900);
+}
+
+.text-blue1000 {
+  color: var(--blue1000);
+}
+
 .color-loud-text {
-  color: var(--color-loud);
+  color: var(--color-key);
 }
 
 .color-loud {
-  background-color: var(--color-loud);
+  background-color: var(--color-key);
 }
 
 .emphasized-header {
@@ -44,7 +85,7 @@
     calc(100% - var(--skew-s)) 100%,
     0% 100%
   );
-  background: var(--color-loud);
+  background: var(--color-key);
   color: var(--color-light);
   padding: var(--space-xs) var(--space-xl);
 }
@@ -87,9 +128,10 @@
 .button:focus,
 .button:active {
   text-decoration: none;
+  background-color: var(--blue700);
 }
 .button:focus {
-  outline: 2px solid var(--color-loud);
+  outline: 2px solid var(--blue700);
 }
 
 /* Region */
