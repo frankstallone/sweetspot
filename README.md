@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e2f23ae7-8965-43ed-9f85-3a5e301d5feb/deploy-status)](https://app.netlify.com/sites/sweetspot-solutions/deploys)
+
 # Astro Starter Kit: Straightfoward Growth Template
 
 A stripped down template from frankstall.one using best practices I've learned throughout the years to build desirable performant websites.
