@@ -1,6 +1,6 @@
 /* Global variables */
 :root {
-  /* https://leonardocolor.io/theme.html?name=SweetSpot&config=%7B%22baseScale%22%3A%22blue%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22blue%22%2C%22colorKeys%22%3A%5B%22%230049ff%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.1%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%2C%2214.0%22%2C%2217.0%22%2C%2219.00%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A100%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D */
+  /* https://leonardocolor.io/theme.html?name=SweetSpot&config=%7B%22baseScale%22%3A%22blue%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22blue%22%2C%22colorKeys%22%3A%5B%22%230049ff%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.1%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%2C%2214.0%22%2C%2217.0%22%2C%2219.00%22%5D%2C%22smooth%22%3Afalse%7D%2C%7B%22name%22%3A%22purple%22%2C%22colorKeys%22%3A%5B%22%234b24db%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.1%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%2C%2214.0%22%2C%2217.0%22%2C%2219.00%22%5D%2C%22smooth%22%3Afalse%7D%2C%7B%22name%22%3A%22pink%22%2C%22colorKeys%22%3A%5B%22%23ea48dc%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.1%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%2C%2214.0%22%2C%2217.0%22%2C%2219.00%22%5D%2C%22smooth%22%3Afalse%7D%2C%7B%22name%22%3A%22yellow%22%2C%22colorKeys%22%3A%5B%22%23ffcc70%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.1%22%2C%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%2C%2214.0%22%2C%2217.0%22%2C%2219.00%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A100%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D */
   --blue100: #eef3ff;
   --blue200: #c5d6ff;
   --blue300: #95b3ff;
@@ -11,6 +11,36 @@
   --blue800: #002278;
   --blue900: #00174f;
   --blue1000: #000e30;
+  --purple100: #f4f1fd;
+  --purple200: #d9d1f7;
+  --purple300: #baabf1;
+  --purple400: #9b85eb;
+  --purple500: #7c5fe5;
+  --purple600: #5935de;
+  --purple700: #3a1cab;
+  --purple800: #2b147d;
+  --purple900: #1c0e52;
+  --purple1000: #110832;
+  --pink100: #fdf0fc;
+  --pink200: #f8c6f4;
+  --pink300: #f393ea;
+  --pink400: #ec55df;
+  --pink500: #c23cb6;
+  --pink600: #932d8b;
+  --pink700: #661f60;
+  --pink800: #4a1745;
+  --pink900: #300f2e;
+  --pink1000: #1c091b;
+  --yellow100: #fff3dc;
+  --yellow200: #ffce77;
+  --yellow300: #d9ae5f;
+  --yellow400: #b38f4f;
+  --yellow500: #8e723e;
+  --yellow600: #6b562f;
+  --yellow700: #493b20;
+  --yellow800: #352a17;
+  --yellow900: #221b0f;
+  --yellow1000: #130f09;
   --gray100: hsl(0, 0%, 99%);
   --gray200: hsl(0, 0%, 97.3%);
   --gray300: hsl(0, 0%, 95.1%);

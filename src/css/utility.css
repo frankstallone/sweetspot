@@ -2,6 +2,7 @@
 
 /* Main navigation buttons */
 .header-link a {
+  color: var(--blue400);
   font-size: var(--step-0);
   display: inline-block;
   text-decoration: none;
@@ -10,7 +11,7 @@
 .header-link a:hover,
 .header-link a:focus,
 .header-link a:active {
-  color: var(--color-key);
+  color: var(--blue400);
   text-decoration: underline;
   text-decoration-thickness: max(0.15em, 1px);
 }
@@ -68,6 +69,46 @@
 
 .text-blue1000 {
   color: var(--blue1000);
+}
+
+.text-purple100 {
+  color: var(--purple100);
+}
+
+.text-purple200 {
+  color: var(--purple200);
+}
+
+.text-purple300 {
+  color: var(--purple300);
+}
+
+.text-purple400 {
+  color: var(--purple400);
+}
+
+.text-purple500 {
+  color: var(--purple500);
+}
+
+.text-purple600 {
+  color: var(--purple600);
+}
+
+.text-purple700 {
+  color: var(--purple700);
+}
+
+.text-purple800 {
+  color: var(--purple800);
+}
+
+.text-purple900 {
+  color: var(--purple900);
+}
+
+.text-purple1000 {
+  color: var(--purple1000);
 }
 
 .color-loud-text {

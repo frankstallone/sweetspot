@@ -11,6 +11,10 @@ import Layout from '../layouts/Layout.astro';
   }}
 >
   <main id="main">
+    <!-- 
+      background-color: #4158D0;
+      background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+     -->
     <div style="background-color: var(--blue100);" class="text-blue1000">
       <section class="region wrapper" id="course">
         <div class="prose flow">
@@ -23,15 +27,18 @@ import Layout from '../layouts/Layout.astro';
           </p>
         </div>
         <ul class="grid region" role="list">
-          <li class="box flex" style="--spot-color: var(--blue200);">
+          <li
+            class="box rounded flex"
+            style="--spot-color: var(--purple1000); --spot-color-text: var(--purple300);"
+          >
             <div
-              class="font-hero text-blue400"
+              class="font-hero"
               style="writing-mode: vertical-lr; margin-block-end: .75rem;"
             >
               Lesson 1
             </div>
             <div class="flow prose">
-              <h2 class="text-blue800">Introduction</h2>
+              <h2>Introduction</h2>
               <p>
                 This is where the dough hits the pan. We set the expectations of
                 what you're going to learn.
@@ -39,11 +46,11 @@ import Layout from '../layouts/Layout.astro';
             </div>
           </li>
           <li
-            class="box mx-auto flow prose"
-            style="--spot-color: var(--blue200);"
+            class="box rounded mx-auto flow prose"
+            style="--spot-color: var(--purple1000); --spot-color-text: var(--purple300);"
           >
             <div>
-              <div class="font-hero text-blue400">Lesson 2</div>
+              <div class="font-hero">Lesson 2</div>
               <h2>Goals</h2>
             </div>
             <p>
@@ -52,11 +59,11 @@ import Layout from '../layouts/Layout.astro';
             </p>
           </li>
           <li
-            class="box mx-auto flow prose"
-            style="--spot-color: var(--blue200);"
+            class="box rounded mx-auto flow prose"
+            style="--spot-color: var(--purple1000); --spot-color-text: var(--purple300);"
           >
             <div>
-              <div class="font-hero text-blue400">Lesson 3</div>
+              <div class="font-hero">Lesson 3</div>
               <h2>Storytelling</h2>
             </div>
             <p>
@@ -65,11 +72,11 @@ import Layout from '../layouts/Layout.astro';
             </p>
           </li>
           <li
-            class="box mx-auto flow prose"
-            style="--spot-color: var(--blue200);"
+            class="box rounded mx-auto flow prose"
+            style="--spot-color: var(--purple1000); --spot-color-text: var(--purple300);"
           >
             <div>
-              <div class="font-hero text-blue400">Lesson 4</div>
+              <div class="font-hero">Lesson 4</div>
               <h2>Who are successful franchise partners?</h2>
             </div>
             <p>
@@ -78,11 +85,11 @@ import Layout from '../layouts/Layout.astro';
             </p>
           </li>
           <li
-            class="box mx-auto flow prose"
-            style="--spot-color: var(--blue200);"
+            class="box rounded mx-auto flow prose"
+            style="--spot-color: var(--purple1000); --spot-color-text: var(--purple300);"
           >
             <div>
-              <div class="font-hero text-blue400">Lesson 5</div>
+              <div class="font-hero">Lesson 5</div>
               <h2>Voice &amp; tone</h2>
             </div>
             <p>

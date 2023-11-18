@@ -2,10 +2,17 @@
 import Header from './Header.astro';
 ---
 
-<div class="cover" id="hero" style="--cover-padding: 0;">
+<div
+  class="cover"
+  id="hero"
+  style="--cover-padding: 0; background-color: var(--blue1000); color: var(--blue400);"
+>
   <Header />
-  <div class="switcher" style="--spot-color: transparent;">
-    <div class="box flex flex-col justify-center flow prose">
+  <div class="switcher">
+    <div
+      class="box flex flex-col justify-center flow prose"
+      style="color: var(--blue400);"
+    >
       <h1 class="font-hero" style="font-size: 10vw;">Learn, grow, prosper</h1>
       <h2 class="font-base font-weight-base">
         Learn everything we know about marketing. Grow more successful dessert
