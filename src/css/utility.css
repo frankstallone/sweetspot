@@ -367,8 +367,16 @@ Utilities for controlling how grid items are aligned along their inline axis. */
   text-transform: uppercase;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-weight-base {

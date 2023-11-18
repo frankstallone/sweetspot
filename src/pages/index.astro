@@ -4,34 +4,39 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout
   meta={{
-    title: 'Frank Stallone | Sharing 25 years of working on the web',
+    title:
+      'SweetSpot Solutions | Teaching, Growing, and Collaborating with dessert franchisors',
     description:
-      'For the last two decades, I have helped businesses of all sizes craft compelling user experiences that drove 100M+ in revenue.',
+      'Working exlusively with dessert franchisors to teach them everything we know about how agencies market and get results',
   }}
 >
   <main id="main">
     <div style="background-color: var(--blue100);" class="text-blue1000">
-      <section class="region wrapper">
-        <h2>Leader &amp; Unit Growth Course</h2>
-        <p>
-          Learn everything we know from over 30 years in marketing and
-          advertising. This course is for dessert franichisors, and teams, who
-          want to efficiently and effectively find, and obtain, successful
-          franchise partners.
-        </p>
+      <section class="region wrapper" id="course">
+        <div class="prose flow">
+          <h2>Leader &amp; Unit Growth Course</h2>
+          <p>
+            Learn everything we know from over 30 years in marketing and
+            advertising. This course is for dessert franichisors, and teams, who
+            want to efficiently and effectively find, and obtain, successful
+            franchise partners.
+          </p>
+        </div>
         <ul class="grid region" role="list">
-          <li
-            class="box mx-auto flow prose"
-            style="--spot-color: var(--blue200);"
-          >
-            <div>
-              <div class="font-hero text-blue400">Lesson 1</div>
-              <h2>Introduction</h2>
+          <li class="box flex" style="--spot-color: var(--blue200);">
+            <div
+              class="font-hero text-blue400"
+              style="writing-mode: vertical-lr; margin-block-end: .75rem;"
+            >
+              Lesson 1
             </div>
-            <p>
-              This is where the dough hits the pan. We set the expectations of
-              what you're going to learn.
-            </p>
+            <div class="flow prose">
+              <h2 class="text-blue800">Introduction</h2>
+              <p>
+                This is where the dough hits the pan. We set the expectations of
+                what you're going to learn.
+              </p>
+            </div>
           </li>
           <li
             class="box mx-auto flow prose"
@@ -88,5 +93,35 @@ import Layout from '../layouts/Layout.astro';
         </ul>
       </section>
     </div>
+    <section class="region wrapper">
+      <div class="switcher">
+        <div class="prose flow">
+          <h2>Community</h2>
+          <p>
+            We have created a professional community solely for dessert
+            franchises. Build long lasting healthy habits with peers in the
+            dessert franchise space. Join us for events with coaches and experts
+            in all aspects of the busienss. Discuss the Leader &amp; Unit Growth
+            course material, and collaborate on execution methods.
+          </p>
+          <ul>
+            <li>Join early to get exclusive 1-on-1 time</li>
+            <li>Accountability partners</li>
+            <li>Build long last relationships, and habits</li>
+            <li>Course owners get VIP access</li>
+            <li>Share your experience, and gain perspective</li>
+          </ul>
+        </div>
+        <div class="box flex justify-center items-center">
+          <a
+            href="https://discord.gg/gv7uSYekbt"
+            target="_blank"
+            class="button"
+          >
+            Join now!</a
+          >
+        </div>
+      </div>
+    </section>
   </main>
 </Layout>
