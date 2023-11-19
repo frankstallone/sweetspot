@@ -19,6 +19,14 @@
 /* Organetto Extended */
 @font-face {
   font-family: 'Organetto Extended';
+  src: url('/fonts/organetto/Organetto-LightExt.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Download only latin glyphs */
+}
+@font-face {
+  font-family: 'Organetto Extended';
   src: url('/fonts/organetto/Organetto-BoldExt.woff') format('woff');
   font-weight: 700;
   font-style: normal;

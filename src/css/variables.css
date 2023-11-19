@@ -62,6 +62,7 @@
   --line-height: var(--ratio);
   --line-height-small: calc(var(--ratio) * 0.7);
   --font-base: 'Public Sans', sans-serif;
+  --font-light-weight: 300;
   --font-base-weight: 400;
   --font-emphasis-weight: 700;
   --font-display: 'Organetto Bold', sans-serif;
