@@ -175,6 +175,20 @@
   outline: 2px solid var(--blue700);
 }
 
+.purple-button {
+  background-color: var(--purple600);
+  color: var(--purple100);
+}
+
+.purple-button:hover,
+.purple-button:focus,
+.purple-button:active {
+  background-color: var(--purple700);
+}
+.purple-button:focus {
+  outline: 2px solid var(--purple700);
+}
+
 /* Region */
 
 .region[data-padding='l'] {
