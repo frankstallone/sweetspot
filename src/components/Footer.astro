@@ -1,14 +1,16 @@
 ---
+import FooterSVG from './FooterSVG.astro';
+
 const date = new Date().getFullYear();
 ---
 
-<footer class="region" style="background: var(--gray1200)">
-  <div class="wrapper">
-    <ul
-      role="list"
-      class="cluster step-2 justify-center"
-      style="--spot-color-text: var(--gray100);"
-    >
+<footer
+  class="relative region overflow-hidden z-10"
+  style="background: var(--yellow1000); --spot-color-text: var(--yellow100);"
+>
+  <FooterSVG />
+  <div class="wrapper z-10 relative">
+    <ul role="list" class="cluster step-2 justify-center">
       <li class="box">
         <a href="#">
           <svg
