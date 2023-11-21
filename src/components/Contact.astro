@@ -11,42 +11,42 @@
           We are a consulting company dedicated to dessert franchisors looking
           to learn, grow, and connect. Sound interesting? Let's chat.
         </p>
-        <form
-          name="main"
-          netlify-honeypot="bot-field"
-          class="switcher"
-          method="POST"
-          data-netlify="true"
-          action="/"
-        >
-          <input type="hidden" name="subject" value="📝 Form: sweetspot.nyc" />
-          <p class="hidden">
-            <label for="bot-field">Do you like delicious treats?</label>
-            <input name="bot-field" id="bot-field" />
-          </p>
-          <span class="stack">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required />
-          </span>
-          <span class="stack">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required />
-          </span>
-          <span class="stack">
-            <label for="tel">Phone number</label>
-            <input id="tel" name="tel" type="tel" />
-          </span>
-          <span class="stack">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="6" required></textarea>
-          </span>
-          <button
-            type="submit"
-            class="button"
-            style="--spot-color: var(--color-key);">Submit</button
-          >
-        </form>
       </div>
+      <form
+        name="main"
+        class="flow"
+        netlify-honeypot="bot-field"
+        method="POST"
+        data-netlify="true"
+        action="/"
+      >
+        <input type="hidden" name="subject" value="📝 Form: sweetspot.nyc" />
+        <p class="hidden">
+          <label for="bot-field">Do you like delicious treats?</label>
+          <input name="bot-field" id="bot-field" />
+        </p>
+        <span class="stack">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </span>
+        <span class="stack">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </span>
+        <span class="stack">
+          <label for="tel">Phone number</label>
+          <input id="tel" name="tel" type="tel" />
+        </span>
+        <span class="stack">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="6" required></textarea>
+        </span>
+        <button
+          type="submit"
+          class="button"
+          style="--spot-color: var(--color-key);">Submit</button
+        >
+      </form>
     </div>
   </div>
 </div>
