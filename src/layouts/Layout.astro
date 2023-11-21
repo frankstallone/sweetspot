@@ -1,8 +1,8 @@
 ---
-import Contact from "../components/Contact.astro";
-import Footer from "../components/Footer.astro";
-import Head from "../components/Head.astro";
-import HomeHero from "../components/HomeHero.astro";
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+import Head from '../components/Head.astro';
+import HomeHero from '../components/HomeHero.astro';
 
 const { meta } = Astro.props;
 ---
@@ -13,11 +13,9 @@ const { meta } = Astro.props;
   <body>
     <a href="#main" class="sr-only sr-only-focusable">Skip to content</a>
     <main>
-      <!-- Heading & Hero -->
       <HomeHero />
       <slot />
       <Contact />
-      <!-- Footer -->
       <Footer />
     </main>
   </body>
