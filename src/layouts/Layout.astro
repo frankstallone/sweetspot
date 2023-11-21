@@ -12,11 +12,9 @@ const { meta } = Astro.props;
   <Head meta={meta} />
   <body>
     <a href="#main" class="sr-only sr-only-focusable">Skip to content</a>
-    <main>
-      <HomeHero />
-      <slot />
-      <Contact />
-      <Footer />
-    </main>
+    <HomeHero />
+    <slot />
+    <Contact />
+    <Footer />
   </body>
 </html>
