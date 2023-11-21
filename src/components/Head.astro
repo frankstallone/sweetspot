@@ -25,7 +25,8 @@ export interface Props {
     title?: string;
     description?: string;
     canonicalURL?: URL | string;
-    image?: string;
+    ogImage?: string;
+    twitterImage?: string;
   };
 }
 
@@ -33,17 +34,15 @@ const { meta } = Astro.props;
 
 const title = meta.title
   ? meta.title
-  : 'SweetSpot Solutions | Dessert Franchise Growth Partners';
+  : 'SweetSpot Solutions | Dessert Franchise Consultants';
 const description = meta.description
   ? meta.description
-  : 'SweetSpot Solutions | Dessert Franchise Growth Partners';
+  : 'SweetSpot Solutions | Dessert Franchise Consultants';
 const canonicalURL = meta.canonicalURL
   ? meta.canonicalURL
   : 'https://sweetspot.nyc';
 // TODO: Change ogImage
-const ogImage = meta.image
-  ? meta.image
-  : '/media/the-internets-favorite-frank-stallone-ogimage.png';
+const ogImage = meta.ogImage ? meta.ogImage : '/media/og-image.png';
 ---
 
 <head>
@@ -66,13 +65,25 @@ const ogImage = meta.image
 
   <meta name="generator" content={Astro.generator} />
   <title>{title}</title>
+
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalURL} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={ogImage} />
-  <meta property="og:image:alt" content={`Frank Stallone - ${description}`} />
+  <meta
+    property="og:image:alt"
+    content={`SweetSpot Solutions - ${description}`}
+  />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@frankstallone" />
+  <meta name="twitter:creator" content="@frankstallone" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />

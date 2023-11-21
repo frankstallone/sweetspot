@@ -146,6 +146,16 @@ textarea:focus {
   outline: 2px solid var(--gray1100);
 }
 
+/* Responsive breakpoints: Minimum width	CSS
+
+@media (min-width: 640px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 1024px) { ... }
+@media (min-width: 1280px) { ... }
+@media (min-width: 1536px) { ... }
+
+*/
+
 /* Footer */
 
 footer {

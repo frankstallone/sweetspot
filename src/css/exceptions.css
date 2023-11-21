@@ -1,5 +1,5 @@
-#hero {
-  /* background-image: url(../assets/frank-stallone-home-header-blank.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
+@media (max-width: 768px) {
+  #herosvg {
+    display: none;
+  }
 }
