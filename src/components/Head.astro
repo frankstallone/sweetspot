@@ -119,4 +119,19 @@ const ogImage = meta.ogImage ? meta.ogImage : '/media/og-image.png';
     crossorigin="anonymous"
   />
   <!-- Schema.org -->
+  <!-- Google Analytics -->
+  <!-- Google tag (gtag.js) -->
+  <script
+    type="text/partytown"
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-L7DQJL9Q0G"></script>
+  <script type="text/partytown">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L7DQJL9Q0G');
+  </script>
 </head>
